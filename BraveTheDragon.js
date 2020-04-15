@@ -262,6 +262,21 @@
         Dragon.style['bottom'] = 0 + 'px'
         Warrior.style['bottom'] = 0 + 'px'
         bulletSet = []
+        fly = 0
+        WarriorBlood = 4;
+        if(fly == 0){
+            Blood1.style.display = "block"
+            Blood2.style.display = "block"
+            Blood3.style.display = "block"
+            Blood4.style.display = "block"
+        }
+        if(WarriorBlood == 4){
+            Blood5.style.display = "block"
+            Blood6.style.display = "block"
+            Blood7.style.display = "block"
+            Blood8.style.display = "block"
+        }
+
     }
     function clears(ele){
         clearInterval(ele.timer)
