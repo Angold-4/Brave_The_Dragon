@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#gameStart{
+    width 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+
+#gameEnter{
+    width: 600px;
+    height: 500px;
+    position: relative;
+}
+    
+#Dragon{
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 400px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 99999;
+}
+
+#warrior{
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 100px;
+    cursor: pointer;
+    position:absolute;
+    animation: w 0.3s linear infinite alternate;
+    -o-animation: w 0.3s linear infinite alternate;
+    -moz-animation: w 0.3s linear infinite alternate;
+    -webkit-animation: w 0.3s linear infinite alternate;
+}
+@keyframes w{
+    from{bottom: 0px;}
+    to{bottom: 4px;}
+}
+@-o-keyframes w{
+    from{bottom: 0px;}
+    to{bottom: 4px;}
+}
+@-moz-keyframes w{
+    from{bottom: 0px;}
+    to{bottom: 4px;}
+}
+@-webkit-keyframes w{
+    from{bottom: 0px;}
+    to{bottom: 4px;}
+}
+
+#BloodDragon{
+    width: 100px;
+    height: 30px;
+    left: 500px;
+    top: 0px;
+    position: absolute;
+    z-index:9
+}
+
+#Blood4{
+    width: 25px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+#Blood3{
+    width: 25px;
+    height: 30px;
+    left: 25px;
+    top: 0px;
+    position: absolute;
+}
+#Blood2{
+    width: 25px;
+    height: 30px;
+    left: 50px;
+    top: 0px;
+    position: absolute;
+}
+#Blood1{
+    width: 25px;
+    height: 30px;
+    left: 75px;
+    top: 0px;
+    position: absolute;
+}
+
+#BloodWarrior{
+    width: 100px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 99;
+}
+
+#Blood5{
+    width: 25px;
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+#Blood6{
+    width: 25px;
+    height: 30px;
+    left: 25px;
+    top: 0px;
+    position: absolute;
+}
+#Blood7{
+    width: 25px;
+    height: 30px;
+    left: 50px;
+    top: 0px;
+    position: absolute;
+}
+#Blood8{
+    width: 25px;
+    height: 30px;
+    left: 75px;
+    top: 0px;
+    position: absolute;
+}
+
+
+
+
+.b{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+}
+
+
+
+
+
